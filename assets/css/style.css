@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Lato, "Kantumruy Pro", serif;
+    background-color: #f0f0f2;
+}
+/* ------------logo----------------------- */
+.container{
+    width: 1200px;
+    background-color: #fff;
+    margin: auto;
+    padding: 15px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+/* ------------navigation-------------------- */
+.navbar{
+    width: 1200px;
+    margin: auto;
+    background-color: #a1adb9;
+}
+.navbar .navbar-nav{
+    list-style: none;
+    display: flex;
+}
+.navbar .nav-item{
+    width: 150px;
+    text-align: center;
+    padding: 14px 25px;
+    border-right:1px solid white ;
+    transition: 0.5s;
+}
+.navbar .nav-item:hover{
+    background: linear-gradient(to right, #76EEC6, #A2B6F9);
+}
+.navbar .nav-link{
+    font-size: 17px;
+    font-weight: 700px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar .home{
+    background: linear-gradient(to right, #76EEC6, #A2B6F9);
+}
+/* ...............Hero-banner........................ */
+.hero-banner{
+    width: 1200px;
+    margin: auto;
+}
+.hero-banner .banner{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+/* ..........content............ */
+.content{
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    
+}
+/* ...............container-left.................... */
+.content .container-left{
+    width: 230px;
+    padding: 0px 10px;
+    margin-right:10px ;
+}
+.content h3{
+    width: 220px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    background-color: #a6b0bc;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+}
+.content ul li a{
+    width: 220px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500px;
+    padding: 10px 15px;
+    background-color: #cacdd4;
+    margin-bottom: 1px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+.content .category-man{
+    margin-bottom: 20px;
+}
+/* ............hover-category.................... */
+.content ul li a:hover{
+    padding: 10px 20px;
+    background: linear-gradient(to right, #76EEC6, #A2B6F9);
+}
+
+/* ..............container-right..................... */
+.content .container-right{
+    width: 950px;
+}
+.content .container-right .addidas{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a9b3bf;
+    border-radius: 10px;
+}
+.content .container-right .addidas h2{
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.content .container-right .addidas .read-more{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: end;
+}
+.content .container-right .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.col-3{
+    margin: 15px 0px;
+    width: 217.5px;
+    height: 210px;
+    border: 1px solid rgba(128, 128, 128, 0.741);
+    border-radius: 5px;
+}
+
+/* ...............footer....................... */
+footer{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 35px 0px;
+    background-color:#b5bfc9;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
